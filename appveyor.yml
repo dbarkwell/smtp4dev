@@ -46,8 +46,8 @@ deploy:
   provider: GitHub
   artifact: /.*\..*/
   auth_token:
-    secure: 5zLYIRVYHWHyZYOUZ2F46AvAYb3OLIWs35PQUddGkyK3xkV7qCmaMT38PJY6OiY7
+    secure: Zo0KGoJhNj/uyTTtab2G78ZM84NGgB6yznHfKPLBlwyN7bEuS11Vg7N+GtMd17tX
   prerelease: true
   on:
-    branch: master                 # release from master branch only
+    branch: features
     appveyor_repo_tag: false
